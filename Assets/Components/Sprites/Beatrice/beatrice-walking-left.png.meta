@@ -1,0 +1,354 @@
+fileFormatVersion: 2
+guid: 8a20fc74e98dbe8499ba74ab859ef3a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6700645960960448923
+    second: beatrice-walking-left_0
+  - first:
+      213: 8748254350355406023
+    second: beatrice-walking-left_1
+  - first:
+      213: 8021000290736566440
+    second: beatrice-walking-left_2
+  - first:
+      213: 1400337079692489102
+    second: beatrice-walking-left_3
+  - first:
+      213: 8915406383773248970
+    second: beatrice-walking-left_4
+  - first:
+      213: 40392532822956156
+    second: beatrice-walking-left_5
+  - first:
+      213: -6579859248979249985
+    second: beatrice-walking-left_6
+  - first:
+      213: 3465522944568648547
+    second: beatrice-walking-left_7
+  - first:
+      213: -830710214058752416
+    second: beatrice-walking-left_8
+  - first:
+      213: 1496833416904172083
+    second: beatrice-walking-left_9
+  - first:
+      213: 3510631801166631000
+    second: beatrice-walking-left_10
+  - first:
+      213: -2330176917841215219
+    second: beatrice-walking-left_11
+  - first:
+      213: -940384669242056523
+    second: beatrice-walking-left_12
+  - first:
+      213: -5737736833544357640
+    second: beatrice-walking-left_13
+  - first:
+      213: -1395322453323198449
+    second: beatrice-walking-left_14
+  - first:
+      213: -2631468335915279807
+    second: beatrice-walking-left_15
+  - first:
+      213: 3127433363003873465
+    second: beatrice-walking-left_16
+  - first:
+      213: -3489831357048251296
+    second: beatrice-walking-left_17
+  - first:
+      213: -4218038529875559844
+    second: beatrice-walking-left_18
+  - first:
+      213: 4140523801899257308
+    second: beatrice-walking-left_19
+  - first:
+      213: 1221934849251502429
+    second: beatrice-walking-left_20
+  - first:
+      213: -6455893710056586311
+    second: beatrice-walking-left_21
+  - first:
+      213: 7556382766601827817
+    second: beatrice-walking-left_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beatrice-walking-left_0
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 537
+        width: 271
+        height: 449
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566eb4300068203a0800000000000000
+      internalID: -6700645960960448923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beatrice-walking-left_1
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 539
+        width: 268
+        height: 443
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc13bd3bfa086970800000000000000
+      internalID: 8748254350355406023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beatrice-walking-left_2
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 540
+        width: 252
+        height: 450
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a078a07441505f60800000000000000
+      internalID: 8021000290736566440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beatrice-walking-left_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 46
+        width: 274
+        height: 439
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81f0e8972ffe6310800000000000000
+      internalID: 1400337079692489102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beatrice-walking-left_4
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 57
+        width: 265
+        height: 448
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acded05ced2e9bb70800000000000000
+      internalID: 8915406383773248970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beatrice-walking-left_5
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 60
+        width: 275
+        height: 440
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c789d7a6bc08f8000800000000000000
+      internalID: 40392532822956156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5a01ac366b66e6947857274fe8e47927
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      beatrice-walking-left_0: -6700645960960448923
+      beatrice-walking-left_1: 8748254350355406023
+      beatrice-walking-left_10: 3510631801166631000
+      beatrice-walking-left_11: -2330176917841215219
+      beatrice-walking-left_12: -940384669242056523
+      beatrice-walking-left_13: -5737736833544357640
+      beatrice-walking-left_14: -1395322453323198449
+      beatrice-walking-left_15: -2631468335915279807
+      beatrice-walking-left_16: 3127433363003873465
+      beatrice-walking-left_17: -3489831357048251296
+      beatrice-walking-left_18: -4218038529875559844
+      beatrice-walking-left_19: 4140523801899257308
+      beatrice-walking-left_2: 8021000290736566440
+      beatrice-walking-left_20: 1221934849251502429
+      beatrice-walking-left_21: -6455893710056586311
+      beatrice-walking-left_22: 7556382766601827817
+      beatrice-walking-left_3: 1400337079692489102
+      beatrice-walking-left_4: 8915406383773248970
+      beatrice-walking-left_5: 40392532822956156
+      beatrice-walking-left_6: -6579859248979249985
+      beatrice-walking-left_7: 3465522944568648547
+      beatrice-walking-left_8: -830710214058752416
+      beatrice-walking-left_9: 1496833416904172083
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

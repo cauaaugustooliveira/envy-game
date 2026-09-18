@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#090d0c">
+    <meta name="description" content="Envy Route — uma experiência interativa do IF Route Archive.">
+    <title>Envy Route | IF Route Archive</title>
+    <link rel="shortcut icon" href="/game/envy/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="/game/envy/TemplateData/style.css">
+  </head>
+  <body>
+    <div class="route-atmosphere" aria-hidden="true">
+      <div class="route-orbit orbit-one"></div>
+      <div class="route-orbit orbit-two"></div>
+      <div class="route-grain"></div>
+    </div>
+
+    <div class="route-page">
+      <header class="route-topbar">
+        <a class="route-brand" href="/?archive=if" aria-label="Starting Life in Another Portfolio">
+          <span class="route-brand-mark"><img src="/logo.webp" alt=""></span>
+          <span><strong>Starting Life</strong><i>in Another Portfolio</i></span>
+        </a>
+        <div class="route-breadcrumb"><span>IF ROUTE ARCHIVE</span><i>/</i><strong>ENVY</strong></div>
+        <div class="route-system-status"><i></i><span id="route-runtime-status" data-i18n="loadingStatus">CARREGANDO WEBGL</span></div>
+      </header>
+
+      <main class="route-shell">
+        <aside class="route-record">
+          <a class="route-back" href="/?archive=if"><span aria-hidden="true">←</span><span data-i18n="back">VOLTAR AO ARQUIVO</span></a>
+          <div class="envy-sigil" aria-hidden="true"><span></span><i></i></div>
+          <span class="route-record-index">IF GAME // 01</span>
+          <h1 data-i18n="title">Envy Route</h1>
+          <p data-i18n="description">Caminhe pela rota onde tudo começou.</p>
+          <div class="route-status"><i></i><span data-i18n="available">ROTA DISPONÍVEL</span></div>
+          <dl class="route-record-meta">
+            <div><dt data-i18n="typeLabel">TIPO</dt><dd data-i18n="typeValue">EXPERIÊNCIA INTERATIVA</dd></div>
+            <div><dt data-i18n="runtimeLabel">RUNTIME</dt><dd>UNITY · WEBGL</dd></div>
+            <div><dt data-i18n="recordLabel">REGISTRO</dt><dd>ENVY_IF_01</dd></div>
+          </dl>
+          <p class="route-desktop-note" data-i18n="desktopNote">Desenvolvido para teclado e tela de computador.</p>
+        </aside>
+
+        <section class="game-column" aria-label="Envy WebGL">
+          <header class="game-frame-header">
+            <div><span>RECORD // ENVY</span><strong data-i18n="gameTitle">A ROTA DA INVEJA</strong></div>
+            <span class="game-frame-live"><i></i> <b data-i18n="live">SISTEMA ATIVO</b></span>
+          </header>
+
+          <div id="unity-container" class="unity-desktop">
+            <span class="frame-corner corner-one" aria-hidden="true"></span>
+            <span class="frame-corner corner-two" aria-hidden="true"></span>
+            <span class="frame-corner corner-three" aria-hidden="true"></span>
+            <span class="frame-corner corner-four" aria-hidden="true"></span>
+            <canvas id="unity-canvas" width="960" height="600" tabindex="-1"></canvas>
+            <div id="unity-loading-bar">
+              <span class="loading-eyebrow" data-i18n="loadingEyebrow">SINCRONIZANDO TIMELINE</span>
+              <div class="loading-sigil" aria-hidden="true"><span></span></div>
+              <strong data-i18n="loadingTitle">Acessando Envy Route</strong>
+              <p data-i18n="loadingDescription">Reconstruindo este mundo dentro do arquivo...</p>
+              <div id="unity-progress-bar-empty"><div id="unity-progress-bar-full"></div></div>
+              <span id="unity-progress-value">0%</span>
+            </div>
+            <div id="unity-warning" aria-live="polite"></div>
+          </div>
+
+          <div id="unity-footer" class="game-toolbar">
+            <div id="unity-build-title"><span data-i18n="build">BUILD ESTÁVEL</span><i>ENVY · 1.0</i></div>
+            <p data-i18n="fullscreenHint">Use tela cheia para entrar completamente nesta rota.</p>
+            <button id="unity-fullscreen-button" type="button" disabled><span aria-hidden="true">⛶</span><b data-i18n="fullscreen">TELA CHEIA</b></button>
+          </div>
+        </section>
+      </main>
+
+      <footer class="route-footer"><span>ARCHIVE OF ELIOR · IF ROUTE RECORD</span><i>ENVY // AVAILABLE</i><b>AUG · 2026</b></footer>
+    </div>
+
+    <script>
+      var copy = {
+        "pt-BR": {
+          loadingStatus: "CARREGANDO WEBGL", readyStatus: "TIMELINE ESTÁVEL", back: "VOLTAR AO ARQUIVO",
+          title: "Envy Route", description: "Caminhe pela rota onde tudo começou.", available: "ROTA DISPONÍVEL",
+          typeLabel: "TIPO", typeValue: "EXPERIÊNCIA INTERATIVA", runtimeLabel: "RUNTIME", recordLabel: "REGISTRO",
+          desktopNote: "Desenvolvido para teclado e tela de computador.", gameTitle: "A ROTA DA INVEJA", live: "SISTEMA ATIVO",
+          loadingEyebrow: "SINCRONIZANDO TIMELINE", loadingTitle: "Acessando Envy Route",
+          loadingDescription: "Reconstruindo este mundo dentro do arquivo...", build: "BUILD ESTÁVEL",
+          fullscreenHint: "Use tela cheia para entrar completamente nesta rota.", fullscreen: "TELA CHEIA",
+          loadError: "Não foi possível acessar esta timeline. Recarregue a página e tente novamente."
+        },
+        en: {
+          loadingStatus: "LOADING WEBGL", readyStatus: "TIMELINE STABLE", back: "BACK TO ARCHIVE",
+          title: "Envy Route", description: "Walk the path where everything began.", available: "ROUTE AVAILABLE",
+          typeLabel: "TYPE", typeValue: "INTERACTIVE EXPERIENCE", runtimeLabel: "RUNTIME", recordLabel: "RECORD",
+          desktopNote: "Designed for keyboard and desktop displays.", gameTitle: "THE ENVY ROUTE", live: "SYSTEM ACTIVE",
+          loadingEyebrow: "SYNCHRONIZING TIMELINE", loadingTitle: "Accessing Envy Route",
+          loadingDescription: "Reconstructing this world inside the archive...", build: "STABLE BUILD",
+          fullscreenHint: "Use fullscreen to enter this route completely.", fullscreen: "FULLSCREEN",
+          loadError: "This timeline could not be accessed. Reload the page and try again."
+        }
+      };
+
+      var savedLocale = "pt-BR";
+      try { savedLocale = window.localStorage.getItem("portfolio-locale") === "en" ? "en" : "pt-BR"; } catch (error) { /* Keep the default locale. */ }
+      var language = copy[savedLocale];
+      document.documentElement.lang = savedLocale;
+      document.querySelectorAll("[data-i18n]").forEach(function (element) {
+        var value = language[element.dataset.i18n];
+        if (value) element.textContent = value;
+      });
+
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBar = document.querySelector("#unity-progress-bar-full");
+      var progressValue = document.querySelector("#unity-progress-value");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var runtimeStatus = document.querySelector("#route-runtime-status");
+
+      function unityShowBanner(message, type) {
+        var warningBanner = document.querySelector("#unity-warning");
+        var item = document.createElement("div");
+        item.className = "unity-message " + (type || "info");
+        item.textContent = message;
+        warningBanner.appendChild(item);
+        warningBanner.style.display = "block";
+        if (type !== "error") {
+          window.setTimeout(function () {
+            item.remove();
+            if (!warningBanner.children.length) warningBanner.style.display = "none";
+          }, 5000);
+        }
+      }
+
+      var buildUrl = "/game/envy/Build";
+      var loaderUrl = buildUrl + "/envy.loader.js";
+      var config = {
+        arguments: [],
+        dataUrl: buildUrl + "/envy.data.br",
+        frameworkUrl: buildUrl + "/envy.framework.js.br",
+        codeUrl: buildUrl + "/envy.wasm.br",
+        streamingAssetsUrl: "/game/envy/StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "Envy",
+        productVersion: "1.0",
+        showBanner: unityShowBanner,
+        devicePixelRatio: 1
+      };
+
+      canvas.style.width = "100%";
+      canvas.style.height = "100%";
+      loadingBar.style.display = "flex";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = function () {
+        createUnityInstance(canvas, config, function (progress) {
+          var percentage = Math.round(progress * 100);
+          progressBar.style.width = percentage + "%";
+          progressValue.textContent = percentage + "%";
+        }).then(function (unityInstance) {
+          loadingBar.classList.add("loading-complete");
+          window.setTimeout(function () { loadingBar.style.display = "none"; }, 420);
+          fullscreenButton.disabled = false;
+          runtimeStatus.textContent = language.readyStatus;
+          document.body.classList.add("unity-ready");
+          fullscreenButton.onclick = function () { unityInstance.SetFullscreen(1); };
+        }).catch(function (message) {
+          loadingBar.classList.add("loading-error");
+          loadingBar.querySelector("strong").textContent = language.loadError;
+          loadingBar.querySelector("p").textContent = message;
+          runtimeStatus.textContent = "WEBGL ERROR";
+        });
+      };
+      script.onerror = function () {
+        loadingBar.classList.add("loading-error");
+        loadingBar.querySelector("strong").textContent = language.loadError;
+        runtimeStatus.textContent = "LOADER ERROR";
+      };
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>
+

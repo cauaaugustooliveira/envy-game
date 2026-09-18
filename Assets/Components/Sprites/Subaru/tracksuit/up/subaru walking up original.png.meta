@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 5d210922445e22142952c1eebbce4364
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8945549453575215420
+    second: subaru walking up original_0
+  - first:
+      213: 3661359591617800065
+    second: subaru walking up original_1
+  - first:
+      213: 7311594971834465844
+    second: subaru walking up original_2
+  - first:
+      213: 4917111557963577625
+    second: subaru walking up original_3
+  - first:
+      213: -4126732389271572567
+    second: subaru walking up original_4
+  - first:
+      213: 6876717059541457
+    second: subaru walking up original_5
+  - first:
+      213: 6651191501476690175
+    second: subaru walking up original_6
+  - first:
+      213: -3289662478769167279
+    second: subaru walking up original_7
+  - first:
+      213: 6681282720828112474
+    second: subaru walking up original_8
+  - first:
+      213: -1302247169880754575
+    second: subaru walking up original_9
+  - first:
+      213: -5754219415224088899
+    second: subaru walking up original_10
+  - first:
+      213: -5765020162179353712
+    second: subaru walking up original_11
+  - first:
+      213: 1983831839708771631
+    second: subaru walking up original_12
+  - first:
+      213: 3129707090853860081
+    second: subaru walking up original_13
+  - first:
+      213: 9111700209695833742
+    second: subaru walking up original_14
+  - first:
+      213: -6805197662666441250
+    second: subaru walking up original_15
+  - first:
+      213: 4137402555599755558
+    second: subaru walking up original_16
+  - first:
+      213: -5499303767875467760
+    second: subaru walking up original_17
+  - first:
+      213: 2868220027651452968
+    second: subaru walking up original_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: subaru walking up original_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 72
+        width: 215
+        height: 517
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6a5f2ea260bd380800000000000000
+      internalID: -8945549453575215420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subaru walking up original_2
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 72
+        width: 210
+        height: 517
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43eb9bd63e0087560800000000000000
+      internalID: 7311594971834465844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subaru walking up original_3
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 67
+        width: 218
+        height: 517
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919f265f8e61d3440800000000000000
+      internalID: 4917111557963577625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subaru walking up original_4
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 69
+        width: 221
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af6e5e91c6eab6c0800000000000000
+      internalID: -4126732389271572567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subaru walking up original_5
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 72
+        width: 216
+        height: 517
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d90e85765e681000800000000000000
+      internalID: 6876717059541457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: subaru walking up original_8
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 73
+        width: 221
+        height: 517
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e3ae25c3fa8bc50800000000000000
+      internalID: 6681282720828112474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fdf3d0103d5698f45a859181bf5c6fcb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      subaru walking up original_0: -8945549453575215420
+      subaru walking up original_1: 3661359591617800065
+      subaru walking up original_10: -5754219415224088899
+      subaru walking up original_11: -5765020162179353712
+      subaru walking up original_12: 1983831839708771631
+      subaru walking up original_13: 3129707090853860081
+      subaru walking up original_14: 9111700209695833742
+      subaru walking up original_15: -6805197662666441250
+      subaru walking up original_16: 4137402555599755558
+      subaru walking up original_17: -5499303767875467760
+      subaru walking up original_18: 2868220027651452968
+      subaru walking up original_2: 7311594971834465844
+      subaru walking up original_3: 4917111557963577625
+      subaru walking up original_4: -4126732389271572567
+      subaru walking up original_5: 6876717059541457
+      subaru walking up original_6: 6651191501476690175
+      subaru walking up original_7: -3289662478769167279
+      subaru walking up original_8: 6681282720828112474
+      subaru walking up original_9: -1302247169880754575
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

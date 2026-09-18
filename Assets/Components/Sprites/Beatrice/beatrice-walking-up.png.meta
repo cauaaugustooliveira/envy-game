@@ -1,0 +1,370 @@
+fileFormatVersion: 2
+guid: e13c2eaf06ee2424f867f9a91d51fd0d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3673076245791189177
+    second: beatrice-walking-up_0
+  - first:
+      213: 5469036565456334416
+    second: beatrice-walking-up_1
+  - first:
+      213: -1424763010820963728
+    second: beatrice-walking-up_2
+  - first:
+      213: -1380136944680090768
+    second: beatrice-walking-up_3
+  - first:
+      213: -3126510202410294347
+    second: beatrice-walking-up_4
+  - first:
+      213: 1475318184995879404
+    second: beatrice-walking-up_5
+  - first:
+      213: 6434298675655662144
+    second: beatrice-walking-up_6
+  - first:
+      213: 537575794852143851
+    second: beatrice-walking-up_7
+  - first:
+      213: 1622578922850420942
+    second: beatrice-walking-up_8
+  - first:
+      213: 3249209467533690465
+    second: beatrice-walking-up_9
+  - first:
+      213: 2189672627481021809
+    second: beatrice-walking-up_10
+  - first:
+      213: 6043644806457994187
+    second: beatrice-walking-up_11
+  - first:
+      213: 6034643081237319440
+    second: beatrice-walking-up_12
+  - first:
+      213: -5537061279298006349
+    second: beatrice-walking-up_13
+  - first:
+      213: -6002739044173202659
+    second: beatrice-walking-up_14
+  - first:
+      213: -5106518773647672769
+    second: beatrice-walking-up_15
+  - first:
+      213: -3268221473481044233
+    second: beatrice-walking-up_16
+  - first:
+      213: 6017224345440721945
+    second: beatrice-walking-up_17
+  - first:
+      213: -5665965536254546612
+    second: beatrice-walking-up_18
+  - first:
+      213: -4510303326538675933
+    second: beatrice-walking-up_19
+  - first:
+      213: -695579912738050060
+    second: beatrice-walking-up_20
+  - first:
+      213: -6735810055250820709
+    second: beatrice-walking-up_21
+  - first:
+      213: 5493110373894971697
+    second: beatrice-walking-up_22
+  - first:
+      213: 9038431900432437824
+    second: beatrice-walking-up_23
+  - first:
+      213: -2143856127346414533
+    second: beatrice-walking-up_24
+  - first:
+      213: 3531147185429662961
+    second: beatrice-walking-up_25
+  - first:
+      213: -4527293565306526423
+    second: beatrice-walking-up_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beatrice-walking-up_0
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 576
+        width: 263
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747d0b08d9c960dc0800000000000000
+      internalID: -3673076245791189177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beatrice-walking-up_1
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 570
+        width: 262
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ea5a3b7cbe5eb40800000000000000
+      internalID: 5469036565456334416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beatrice-walking-up_2
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 569
+        width: 261
+        height: 421
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07286e227993a3ce0800000000000000
+      internalID: -1424763010820963728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beatrice-walking-up_3
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 79
+        width: 263
+        height: 413
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07343f6d2c4c8dce0800000000000000
+      internalID: -1380136944680090768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beatrice-walking-up_4
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 72
+        width: 262
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b323be29876c94d0800000000000000
+      internalID: -3126510202410294347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beatrice-walking-up_5
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 72
+        width: 262
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce97a5b9212697410800000000000000
+      internalID: 1475318184995879404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2dcc36e5f6383104abf1f743f6b61adf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      beatrice-walking-up_0: -3673076245791189177
+      beatrice-walking-up_1: 5469036565456334416
+      beatrice-walking-up_10: 2189672627481021809
+      beatrice-walking-up_11: 6043644806457994187
+      beatrice-walking-up_12: 6034643081237319440
+      beatrice-walking-up_13: -5537061279298006349
+      beatrice-walking-up_14: -6002739044173202659
+      beatrice-walking-up_15: -5106518773647672769
+      beatrice-walking-up_16: -3268221473481044233
+      beatrice-walking-up_17: 6017224345440721945
+      beatrice-walking-up_18: -5665965536254546612
+      beatrice-walking-up_19: -4510303326538675933
+      beatrice-walking-up_2: -1424763010820963728
+      beatrice-walking-up_20: -695579912738050060
+      beatrice-walking-up_21: -6735810055250820709
+      beatrice-walking-up_22: 5493110373894971697
+      beatrice-walking-up_23: 9038431900432437824
+      beatrice-walking-up_24: -2143856127346414533
+      beatrice-walking-up_25: 3531147185429662961
+      beatrice-walking-up_26: -4527293565306526423
+      beatrice-walking-up_3: -1380136944680090768
+      beatrice-walking-up_4: -3126510202410294347
+      beatrice-walking-up_5: 1475318184995879404
+      beatrice-walking-up_6: 6434298675655662144
+      beatrice-walking-up_7: 537575794852143851
+      beatrice-walking-up_8: 1622578922850420942
+      beatrice-walking-up_9: 3249209467533690465
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
